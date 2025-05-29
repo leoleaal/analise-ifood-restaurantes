@@ -49,6 +49,16 @@ Gráficos disponíveis no notebook:
 - Barras com avaliação média dos restaurantes por estado  
 - Top 10 cidades com mais restaurantes
 
+## 📊 Visualizações
+
+### 🏢 Quantidade de Restaurantes por Estado
+
+![Quantidade de Restaurantes por Estado](output/graficos/restaurantes_por_estado.png)
+
+### 🌟 Avaliação Média dos Restaurantes por Estado
+
+![Avaliação Média dos Restaurantes por Estado](output/graficos/avaliacao_media_estado.png)
+
 ---
 
 ## 🤝 Contato
