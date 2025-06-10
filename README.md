@@ -37,6 +37,34 @@ Este projeto consiste na análise exploratória e limpeza de um grande conjunto 
 
 * Os dados indicam que os consumidores preferem refeições rápidas, tradicionais e sobremesas, com uma pequena variação nas taxas e tempo de entrega.
 
+* ## 📈 Análise Avançada e Modelagem
+
+Após a análise exploratória inicial e limpeza dos dados, avançamos para análises mais profundas e modelagem, que incluem:
+
+### Clusterização dos Restaurantes
+
+- Utilizamos as variáveis **distance**, **rating** e as faixas de preço (cheapest, moderate, expensive e most expensive) para segmentar os restaurantes em **4 clusters**.
+- Os clusters mostram grupos distintos de estabelecimentos com perfis diferentes:
+  - Um cluster com restaurantes com preço moderado, avaliação baixa e maior volume de registros.
+  - Um cluster com restaurantes mais baratos, avaliação baixa.
+  - Um cluster com restaurantes caros e avaliação alta.
+  - Um cluster com restaurantes baratos, porém com avaliação alta.
+- Esta segmentação pode ajudar no direcionamento de estratégias de marketing e personalização de ofertas.
+
+### Modelagem Preditiva
+
+- Implementamos um modelo de regressão (Random Forest) para prever o número de pedidos.
+- Os principais resultados do modelo foram:
+  - **MAE (Erro Médio Absoluto):** 11.40
+  - **RMSE (Raiz do Erro Quadrático Médio):** 14.88
+- O modelo apresenta um desempenho satisfatório para previsões iniciais, podendo ser refinado em projetos futuros.
+
+### Próximos passos sugeridos
+
+- Explorar mais variáveis e novas features para melhorar a performance do modelo.
+- Avaliar outras técnicas de modelagem e validação cruzada.
+- Analisar sazonalidades e efeitos temporais com séries temporais.
+
 ## ⚙️ Como Rodar o Projeto
 1. Clone este repositório.
 2. Certifique-se de ter as bibliotecas necessárias instaladas:
